@@ -3,11 +3,11 @@
 let x = 4;
 
 if (typeof x == 'number' && !isNaN(x)) {
-alert ('This is number');
+console.log('This is number');
 } else if (typeof x == 'boolean') {
-alert ('This is boolean');
+console.log('This is boolean');
 } else if (typeof x == 'string') {
-alert ('This is string');
+console.log('This is string');
 } else {
-alert ('type is not defined');
+console.log('type is not defined');
 }
